@@ -1,0 +1,51 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    color: rgba(255, 255,255, .8);
+}
+
+.main{
+    height: 100%
+}
+
+
+.header{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: orange;
+    padding: 10px 15px;
+    z-index: 2;
+}
+.section {
+    background-color: #0097d3;
+    height: 100%;
+}
+
+.vcenter {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.footer {
+    background-color: red;
+    padding: 15px;
+}
+
+.section-paragraph{
+    font-size: 1em;
+    margin: 25px;
+}
+
+@media (min-width: 768px){
+    .column60{
+        width: 60%;
+        float: left;
+    }
+    .column40{
+        width: 40%;
+        float: left;
+    }
+}
